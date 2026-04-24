@@ -7,3 +7,4 @@ python3 -m luxtronik2_modbus_proxy.main \
     --luxtronik-host "${luxtronik_host}" \
     --luxtronik-port "${luxtronik_port}" \
     --modbus-port "${modbus_port}"
+ 
