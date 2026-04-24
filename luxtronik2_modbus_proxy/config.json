@@ -5,7 +5,6 @@
   "description": "Modbus-Proxy für Luxtronik 2.x Wärmepumpen",
   "type": "addon",
   "stage": "stable",
-  "image": "local",
   "arch": ["amd64", "aarch64", "armv7"],
   "build_from": {
     "amd64": "ghcr.io/home-assistant/amd64-base-python:3.12",
