@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "luxtronik2_modbus_proxy",
   "description": "Modbus-Proxy für Luxtronik 2.x Wärmepumpen",
-  "type": "app",
+  "type": "addon",
   "stage": "stable",
   "arch": ["amd64", "aarch64"],
   "startup": "services",
