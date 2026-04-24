@@ -3,3 +3,4 @@ pyyaml
 structlog
 pydantic
 pydantic-settings
+luxtronik
