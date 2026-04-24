@@ -1,0 +1,8 @@
+[project]
+name = "luxtronik2_modbus_proxy"
+version = "1.0.0"
+description = "Modbus Proxy for Luxtronik 2.x heat pumps"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["luxtronik2_modbus_proxy"]
