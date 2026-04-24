@@ -5,4 +5,7 @@ description = "Modbus Proxy for Luxtronik 2.x heat pumps"
 requires-python = ">=3.12"
 
 [tool.setuptools]
-packages = ["luxtronik2_modbus_proxy"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
