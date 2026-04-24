@@ -1,0 +1,32 @@
+{
+  "name": "Luxtronik2 Modbus Proxy",
+  "version": "1.0.0",
+  "slug": "luxtronik2_modbus_proxy",
+  "description": "Modbus-Proxy für Luxtronik 2.x Wärmepumpen",
+  "type": "addon",
+  "stage": "stable",
+  "image": "local",
+  "arch": ["amd64", "aarch64", "armv7"],
+  "build_from": {
+    "amd64": "ghcr.io/home-assistant/amd64-base-python:3.12",
+    "aarch64": "ghcr.io/home-assistant/aarch64-base-python:3.12",
+    "armv7": "ghcr.io/home-assistant/armv7-base-python:3.12"
+  },
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "ports": {
+    "502/tcp": 502
+  },
+  "options": {
+    "luxtronik_host": "192.168.178.74",
+    "luxtronik_port": 8889,
+    "modbus_port": 502
+  },
+  "schema": {
+    "luxtronik_host": "str",
+    "luxtronik_port": "int",
+    "modbus_port": "int"
+  },
+  "command": "/run.sh"
+}
